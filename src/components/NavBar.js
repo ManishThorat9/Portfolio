@@ -1,12 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Container from 'react-bootstrap/Container';
 import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
+// import logo1 from '../assets/img/logo1.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+//import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export const NavBar= () => {
   const [activeLink,setActiveLink]= useState('home');
