@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
 // import logo1 from '../assets/img/logo1.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon2 from '../assets/img/navIcon2.jpg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -44,9 +44,9 @@ export const NavBar= () => {
             </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#" ><img src={navIcon1} alt=""/></a>
-              <a href="#" ><img src={navIcon2} alt=""/></a>
-              <a href="#" ><img src={navIcon3} alt=""/></a>
+              <a href="https://www.linkedin.com/in/manish-thorat-a7a6091b7/" ><img src={navIcon1} alt=""/></a>
+              <a href="https://github.com/ManishThorat9" ><img src={navIcon2} alt=""/></a>
+              <a href="https://www.instagram.com/manishthorat9/" ><img src={navIcon3} alt=""/></a>
             </div>
             <button className="vvd" onClick={()=> console.log('connect')}><span>Lets Connect</span></button>
           </span>
